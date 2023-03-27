@@ -1,0 +1,22 @@
+project:
+  type: website 
+  output-dir: docs
+
+website:
+  title: "myrali_website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - portfolio.qmd
+      - href: MyraLi_resume.pdf
+        text: Resume
+
+format:
+  html:
+    theme: lumen
+    css: styles.css
+    toc: true
+
+
+ 
